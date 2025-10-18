@@ -1,0 +1,11 @@
+<%@ page session="true" %>
+<%
+    Integer count = (Integer) session.getAttribute("count");
+    if (count == null) {
+        count = 0;
+    }
+    count++;
+    session.setAttribute("count", count);
+%>
+<h1>Header - Page visitee <%= count %> fois</h1>
+<hr>

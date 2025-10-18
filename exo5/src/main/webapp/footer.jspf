@@ -1,0 +1,4 @@
+<hr>
+<footer>
+    <p>Footer - Compteur: <%= session.getAttribute("count") %></p>
+</footer>
