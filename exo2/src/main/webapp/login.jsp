@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Connexion</title>
@@ -7,8 +6,7 @@
 <body>
 <h2>Page de Connexion</h2>
 
-<!-- Formulaire d'authentification -->
-<form action="authenticate.jsp" method="post">
+<form action="login" method="post">
     <table>
         <tr>
             <td>Nom d'utilisateur :</td>
